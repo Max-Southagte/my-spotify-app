@@ -28,6 +28,161 @@
   color: #61dafb;
 }
 
+
+
+
+
+/* General App Styles */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #222222;
+  color: #333;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #1db954;
+}
+
+/* Tabs for Tracks and Artists */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.tabs button {
+  background-color: #1db954;
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tabs button:hover {
+  background-color: #16642f;
+}
+
+.tabs .active {
+  background-color: #16642f;
+}
+
+/* Time Range Buttons */
+.time-range {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.time-range button {
+  background-color: #1db954;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.time-range button:hover {
+  background-color: #16642f;
+}
+
+.time-range .active {
+  background-color: #16642f;
+}
+
+/* Top Tracks and Artists Styles */
+.top-tracks, .top-artists {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.top-tracks li, .top-artists li {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.top-tracks li:hover, .top-artists li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.top-tracks img, .top-artists img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.top-tracks .track-name, .top-artists .artist-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.top-tracks .track-artist, .top-artists .artist-genre {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.top-tracks .track-name, .top-artists .artist-name {
+  margin-bottom: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .tabs, .time-range {
+      flex-direction: column;
+  }
+
+  .top-tracks, .top-artists {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .top-tracks li, .top-artists li {
+      padding: 20px;
+  }
+
+  .tabs button, .time-range button {
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 0;
+      margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
