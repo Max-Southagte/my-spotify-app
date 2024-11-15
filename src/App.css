@@ -1,54 +1,22 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-
-
-
-
 /* General App Styles */
 body {
   margin: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #222222;
+  background-image: radial-gradient(circle, #1db954, #121212);
   color: #333;
+  overflow-x: hidden;
 }
 
+/* App Container */
 .app {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
 }
 
 h1, h2 {
-  color: #1db954;
+  color: #000000;
 }
 
 /* Tabs for Tracks and Artists */
@@ -60,23 +28,26 @@ h1, h2 {
 }
 
 .tabs button {
-  background-color: #1db954;
-  color: rgb(255, 255, 255);
+  background-color: rgb(22, 22, 22);
+  color: #ffffff;
   padding: 15px 30px;
   font-size: 18px;
   font-weight: 600;
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease, border 0.1s ease;
 }
 
 .tabs button:hover {
-  background-color: #16642f;
+  background-color: rgb(22, 22, 22);
+  transform: scale(1.05);
+  border: 3.5px solid #ffffff;
 }
 
 .tabs .active {
-  background-color: #16642f;
+  background-color: rgb(22, 22, 22);
+  border: 3.5px solid #ffffff;
 }
 
 /* Time Range Buttons */
@@ -88,6 +59,81 @@ h1, h2 {
 }
 
 .time-range button {
+  background-color: rgb(22, 22, 22);
+  color: #ffffff;
+  padding: 7.5px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, border 0.1s ease;;
+}
+
+.time-range button:hover {
+  background-color: rgb(22, 22, 22);
+  border: 3.5px solid #ffffff;
+}
+
+.time-range .active {
+  background-color: rgb(22, 22, 22);
+  border: 3.5px solid #ffffff;
+}
+
+/* Top Tracks, Artists, and Genres */
+.top-tracks, .top-artists, .top-genres {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 equally spaced columns */
+  grid-auto-rows: 1fr; /* Ensure rows have equal height */
+  gap: 80px; /* Increase spacing between boxes */
+  margin: 0 auto; /* Center the grid horizontally */
+  max-width: 100%; /* Allow the grid to span almost the full width */
+  justify-content: space-between; /* Spread items across the row */
+}
+
+.top-tracks li, .top-artists li, .top-genres li {
+  background-color: rgb(238, 231, 231);
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text */
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; /* Fit the grid column width */
+}
+
+.top-tracks li:hover, .top-artists li:hover, .top-genres li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 1);
+}
+
+.top-tracks img, .top-artists img, .top-genres img {
+  width: 120px; /* Increased size */
+  height: 120px; /* Increased size */
+  border-radius: 10px; /* Maintain rounded corners */
+  object-fit: cover;
+  margin-bottom: 0px; /* Add spacing below the image */
+}
+
+.top-tracks .track-name, .top-artists .artist-name, .top-genres .artist-genre {
+  font-size: 18px;
+  font-weight: 700;
+  color: #242424;
+  margin-bottom: 0px;
+}
+
+.top-tracks .track-artist, .top-artists .artist-genre, .top-genres .artist-name {
+  font-size: 14px;
+  font-weight: 550;
+  color: #666;
+  margin-top: 5px;
+  flex-grow: 1;
+}
+
+.login .btn {
   background-color: #1db954;
   color: white;
   padding: 12px 20px;
@@ -99,90 +145,23 @@ h1, h2 {
   transition: background-color 0.3s ease;
 }
 
-.time-range button:hover {
+.login .btn:hover {
   background-color: #16642f;
 }
 
-.time-range .active {
+.logion .active {
   background-color: #16642f;
-}
-
-/* Top Tracks and Artists Styles */
-.top-tracks, .top-artists {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.top-tracks li, .top-artists li {
-  background-color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.top-tracks li:hover, .top-artists li:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.top-tracks img, .top-artists img {
-  width: 60px;
-  height: 60px;
-  border-radius: 8px;
-  margin-right: 20px;
-  object-fit: cover;
-}
-
-.top-tracks .track-name, .top-artists .artist-name {
-  font-size: 18px;
-  font-weight: 600;
-  color: #333;
-}
-
-.top-tracks .track-artist, .top-artists .artist-genre {
-  font-size: 14px;
-  color: #666;
-  margin-top: 5px;
-}
-
-.top-tracks .track-name, .top-artists .artist-name {
-  margin-bottom: 10px;
 }
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-  .tabs, .time-range {
-      flex-direction: column;
-  }
-
-  .top-tracks, .top-artists {
-      grid-template-columns: 1fr 1fr;
-  }
-
-  .top-tracks li, .top-artists li {
-      padding: 20px;
-  }
-
-  .tabs button, .time-range button {
-      width: 100%;
-      font-size: 16px;
-      padding: 12px 0;
-      margin-bottom: 10px;
+  .top-tracks, .top-artists, .top-genres {
+    grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns for smaller screens */
   }
 }
 
 
-
-
-
-
-
-
+/* Animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
