@@ -92,6 +92,7 @@ h1, h2 {
   padding: 20px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+  list-style: none;
 }
 
 .top-tracks li:hover, .top-artists li:hover, .top-genres li:hover {
