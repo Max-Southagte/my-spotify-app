@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getTokenFromUrl } from './authService';
-import { getTopTracks, getTopArtists } from './spotifyApi';
+import { getTopTracks, getTopArtists, getRecentPlays } from './spotifyApi';
 import Login from './login';
 import TopTracks from './TopTracks';
 import TopArtists from './TopArtists';
@@ -25,6 +25,7 @@ function App() {
         if (token) {
             if (activeTab === 'tracks') {
                 getTopTracks(token, timeRange).then(setTracks).catch(console.error);
+                getRecentPlays(token).then(setTracks).catch(console.error);
             } else if (activeTab === 'artists' || activeTab === 'genres') {
                 getTopArtists(token, timeRange).then(setArtists).catch(console.error);
             }

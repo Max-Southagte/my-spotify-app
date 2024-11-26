@@ -10,5 +10,5 @@ export const getTokenFromUrl = () => {
         }, {});
 };
 
-export const loginUrl = `https://accounts.spotify.com/authorize?client_id=${process.env.REACT_APP_SPOTIFY_CLIENT_ID}&redirect_uri=${process.env.REACT_APP_REDIRECT_URI}&scope=user-top-read%20playlist-read-private%20playlist-read-collaborative%20user-read-private%20user-read-email&response_type=token&show_dialog=true`;
+export const loginUrl = `https://accounts.spotify.com/authorize?client_id=${process.env.REACT_APP_SPOTIFY_CLIENT_ID}&redirect_uri=${process.env.REACT_APP_REDIRECT_URI}&scope=user-top-read%20playlist-read-private%20playlist-read-collaborative%20user-read-private%20user-read-email%20user-top-read&response_type=token&show_dialog=true`;
 

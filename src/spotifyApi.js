@@ -22,3 +22,15 @@ export const getTopArtists = async (token, timeRange) => {
     console.log(data);
     return data.items;
 };
+
+export const getRecentPlays = async (token) => {
+    const response = await fetch(`https://api.spotify.com/v1/me/player/recently-played`, {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    });
+    if (!response.ok) throw new Error('Failed to fetch recntly played');
+    const data = await response.json();
+    console.log(data);
+    return data.items;
+}
