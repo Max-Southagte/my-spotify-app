@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-image: radial-gradient(circle, #1db954, #121212);
-  color: #333;
+  color: #000;
   overflow-x: hidden;
 }
 
@@ -76,7 +76,7 @@ h1, h2 {
   border: 3.5px solid #ffffff;
 }
 
-.top-tracks, .top-artists, .top-genres {
+.top-tracks, .top-artists {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
@@ -85,7 +85,7 @@ h1, h2 {
   padding: 20px;
 }
 
-.top-tracks li, .top-artists li, .top-genres li {
+.top-tracks li, .top-artists li{
   background-color: rgb(238, 231, 231);
   border-radius: 15px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
@@ -95,7 +95,7 @@ h1, h2 {
   list-style: none;
 }
 
-.top-tracks li:hover, .top-artists li:hover, .top-genres li:hover {
+.top-tracks li:hover, .top-artists li:hover{
   transform: translateY(-5px);
   box-shadow: 0 20px 20px rgba(0, 0, 0, 1);
 }
@@ -108,14 +108,87 @@ h1, h2 {
   margin-bottom: 10px;
 }
 
-.top-tracks .track-name, .top-artists .artist-name, .top-genres .artist-genre {
+.top-tracks .track-name, .top-artists .artist-name {
   font-size: 18px;
   font-weight: 700;
   color: #242424;
   margin-bottom: 5px;
 }
 
-.top-tracks .track-artist, .top-artists .artist-genre, .top-genres .artist-name {
+.top-tracks .track-artist, .top-artists .artist-genre {
+  font-size: 14px;
+  font-weight: 550;
+  color: #666;
+  margin-top: 5px;
+}
+
+.top-genres {
+  counter-reset: list-counter;
+}
+
+.top-genres li {
+  background-color: rgb(238, 231, 231);
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  padding: 0px 10px 0px 45px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+  position: relative;
+}
+
+.top-genres li::before {
+  counter-increment: list-counter;
+  content: counter(list-counter) ". ";
+  position: absolute;
+  left: 15px;
+  font-weight: bold;
+}
+
+.top-genres .genre {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.recently-played {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.recently-played li {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.recently-played li:hover {
+    transform: translateY(-5px);
+}
+
+.recently-played img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.recently-played .track-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #242424;
+  margin-bottom: 5px;
+}
+
+.recently-played .track-artist {
   font-size: 14px;
   font-weight: 550;
   color: #666;
@@ -144,20 +217,267 @@ h1, h2 {
   border: 3.5px solid #ffffff;
 }
 
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-  .top-tracks, .top-artists, .top-genres {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.dashboard {
+    text-align: center;
+    color: #fff;
 }
 
+.dashboard-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    margin-bottom: 0px;
+}
 
-/* Animation */
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dashboard-section {
+    flex: 1;
+    text-align: center;
+}
+
+.dashboard-section h3 {
+    color: rgb(238, 231, 231);
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#RPhead {
+  text-align: center;
+  color: rgb(238, 231, 231);
+  margin-bottom: 0px;
+}
+
+.dashboard-list {
+    counter-reset: list-counter;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.dashboard-list li {
+    background-color: rgb(238, 231, 231);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    padding: 5px 20px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dashboard-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 1);
+}
+
+.dashboard-list li::before {
+    counter-increment: list-counter;
+    content: counter(list-counter) ". ";
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+.dashboard-list li span {
+    color: #000;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dashboard-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.dashboard-list .track-name,
+.dashboard-list .artist-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #242424;
+    margin-bottom: 5px;
+}
+
+.dashboard-list .track-artist,
+.dashboard-list .artist-genre {
+    font-size: 14px;
+    font-weight: 550;
+    color: #666;
+    margin-top: 5px;
+}
+
+.total-minutes {
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.total-minutes h3 {
+    color: rgb(238, 231, 231);
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.total-minutes .dashboard-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+}
+
+.total-minutes .dashboard-list li {
+    background-color: rgb(238, 231, 231);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center; 
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.total-minutes .dashboard-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 1);
+}
+
+.total-minutes .dashboard-list li::before {
+    content: none;
+}
+
+.insights-list {
+  counter-reset: list-counter;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.insights-list li {
+  background-color: rgb(238, 231, 231);
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 1);
+  padding: 5px 20px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.insights-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 1);
+}
+
+.insights-list li span {
+  color: #000;
+  padding-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.insights-container {
+  padding: 0px;
+  background-color: #fcf7f700;
+  align-items: center;
+}
+
+.insights h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(238, 231, 231);
+}
+
+.insights h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(238, 231, 231);
+}
+
+.insights-charts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart {
+  flex: 1;
+  max-width: 45%;
+  min-width: 300px;
+}
+
+.top-stats-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.top-artist-section, .top-song-section {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(238, 231, 231);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #242424;
+}
+
+.top-artist-section h3, .top-song-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(29, 185, 84);
+    margin-bottom: 10px;
+}
+
+.top-artist-section p, .top-song-section p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.top-artist-section ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.top-artist-section li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.artist-details {
+    padding: 20px;
+    background-color: rgb(238, 231, 231);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #242424;
+    width: 25%;
+}
+
+.artist-details img.artist-image {
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }

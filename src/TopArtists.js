@@ -1,4 +1,3 @@
-// src/components/TopArtists.js
 import React from 'react';
 
 function TopArtists({ artists }) {

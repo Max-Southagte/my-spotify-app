@@ -1,4 +1,3 @@
-// src/components/TopTracks.js
 import React from 'react';
 
 function TopTracks({ tracks }) {

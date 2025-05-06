@@ -1,0 +1,776 @@
+{
+  "tracks": [
+    {
+      "artist": "THE JACKS",
+      "album": "The Jacks",
+      "track": "Walk Away",
+      "uri": "spotify:track:53IOGpL8FW9CU6DdJjNztU"
+    },
+    {
+      "artist": "Creature Canyon",
+      "album": "Did You Want That",
+      "track": "Take What You Want",
+      "uri": "spotify:track:3bbCi57UwOQSb6kTdImZWA"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "Cosmic Electronica",
+      "uri": "spotify:track:45Fayypjg6PYoIWvU8NrTl"
+    },
+    {
+      "artist": "ArnyUnderCover",
+      "album": "Menu Theme (From \"BattleBlock Theater\")",
+      "track": "Menu Theme (From \"BattleBlock Theater\")",
+      "uri": "spotify:track:2odyqSlMSD3Z6WFsBFVnKU"
+    },
+    {
+      "artist": "ABBA",
+      "album": "Voulez-Vous",
+      "track": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+      "uri": "spotify:track:3vkQ5DAB1qQMYO4Mr9zJN6"
+    },
+    {
+      "artist": "Tom Odell",
+      "album": "Long Way Down (Deluxe)",
+      "track": "Sirens",
+      "uri": "spotify:track:4Qsbh3hrrJLul6FAlNlHQz"
+    },
+    {
+      "artist": "Elbow",
+      "album": "The Seldom Seen Kid",
+      "track": "Grounds for Divorce",
+      "uri": "spotify:track:27rgTetikreqkvedaxrF5N"
+    },
+    {
+      "artist": "Hard-Fi",
+      "album": "Stars Of CCTV",
+      "track": "Living for the Weekend",
+      "uri": "spotify:track:0UgHw2x3Nnocajvx62noEn"
+    },
+    {
+      "artist": "Broken Bells",
+      "album": "Broken Bells",
+      "track": "The High Road",
+      "uri": "spotify:track:5cwN1htZyoWqZCc33f3RfE"
+    },
+    {
+      "artist": "Pop Smoke",
+      "album": "Meet The Woo 2",
+      "track": "Invincible",
+      "uri": "spotify:track:792HwhrdO3ErRKL5yRe4Ge"
+    },
+    {
+      "artist": "Broken Bells",
+      "album": "Broken Bells",
+      "track": "October",
+      "uri": "spotify:track:09zDgbs5NQH1kKFXHppYhr"
+    },
+    {
+      "artist": "Onyx Collective",
+      "album": "Tango",
+      "track": "Tango",
+      "uri": "spotify:track:36H4R9Ai9UD9oPE5bb7p2m"
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "track": "Snap Out Of It",
+      "uri": "spotify:track:0NdTUS4UiNYCNn5FgVqKQY"
+    },
+    {
+      "artist": "Robin Skies",
+      "album": "Indie Movie Night 1",
+      "track": "Indie Movie Night 1",
+      "uri": "spotify:track:3ZdYouySVrlIVQ02xYppj3"
+    },
+    {
+      "artist": "Biig Piig",
+      "album": "Feels Right",
+      "track": "Feels Right",
+      "uri": "spotify:track:0BWBqb5XxraObLopqskk6D"
+    },
+    {
+      "artist": "NF",
+      "album": "The Search",
+      "track": "The Search",
+      "uri": "spotify:track:3oLe5ZILASG8vU5dxIMfLY"
+    },
+    {
+      "artist": "Betcha",
+      "album": "Falling",
+      "track": "California",
+      "uri": "spotify:track:6bGStfo1wNj7QG4Dh1nH1q"
+    },
+    {
+      "artist": "Cage The Elephant",
+      "album": "Cage The Elephant",
+      "track": "In One Ear",
+      "uri": "spotify:track:5dJJnW69ejYOfuntLuLJft"
+    },
+    {
+      "artist": "Friday Pilots Club",
+      "album": "Glory",
+      "track": "Glory",
+      "uri": "spotify:track:422ZM0ccoh9WxxOxGculeP"
+    },
+    {
+      "artist": "Pop Smoke",
+      "album": "Meet The Woo 2",
+      "track": "Element",
+      "uri": "spotify:track:57BGVV6wcyhbn3hsjlqEZB"
+    },
+    {
+      "artist": "Bombay Bicycle Club",
+      "album": "A Different Kind Of Fix",
+      "track": "Shuffle",
+      "uri": "spotify:track:4yYvWFUWMaKMXtoJKJnmZk"
+    },
+    {
+      "artist": "The Wombats",
+      "album": "Proudly Present... A Guide to Love, Loss & Desperation",
+      "track": "Let's Dance to Joy Division",
+      "uri": "spotify:track:7v9Ne4758aGFfFc5avh89h"
+    },
+    {
+      "artist": "Kings Of The City",
+      "album": "No Snake",
+      "track": "Make Me Worse",
+      "uri": "spotify:track:1NeYNPxh1zjppciilNAioR"
+    },
+    {
+      "artist": "Jamiroquai",
+      "album": "A Funk Odyssey",
+      "track": "Little L",
+      "uri": "spotify:track:7hhclvecTpNxNNRCk7NUoc"
+    },
+    {
+      "artist": "Bastille",
+      "album": "WHAT YOU GONNA DO???",
+      "track": "WHAT YOU GONNA DO???",
+      "uri": "spotify:track:31brGBYDq5N15VxIn5juop"
+    },
+    {
+      "artist": "THE JACKS",
+      "album": "Remember You",
+      "track": "Threw It All Away",
+      "uri": "spotify:track:5sBd8NTNIXB1z43vNjaz9R"
+    },
+    {
+      "artist": "blackwave.",
+      "album": "ARE WE STILL DREAMING?",
+      "track": "Bittersweet Baby",
+      "uri": "spotify:track:7KPZwV0b7aFQXhIPahLJdZ"
+    },
+    {
+      "artist": "Kanye West",
+      "album": "Yeezus",
+      "track": "Black Skinhead",
+      "uri": "spotify:track:722tgOgdIbNe3BEyLnejw4"
+    },
+    {
+      "artist": "Elbow",
+      "album": "The Seldom Seen Kid",
+      "track": "One Day Like This",
+      "uri": "spotify:track:1OZSVl0JJ1MBzibpuhmmXb"
+    },
+    {
+      "artist": "I Set The Sea On Fire",
+      "album": "Sleep Now Suburbia",
+      "track": "Tastes Like Funk",
+      "uri": "spotify:track:7FbQ1hL0y7LM8d1KWvXdRb"
+    },
+    {
+      "artist": "The Wombats",
+      "album": "The Wombats Proudly Present... This Modern Glitch",
+      "track": "Tokyo (Vampires & Wolves)",
+      "uri": "spotify:track:5o2UsVpnpQcDDRcuEPzGIm"
+    },
+    {
+      "artist": "Jamiroquai",
+      "album": "Synkronized",
+      "track": "Canned Heat",
+      "uri": "spotify:track:0RWqE2ZaulvnN1i40qIhDh"
+    },
+    {
+      "artist": "Måneskin",
+      "album": "Teatro d'ira - Vol. I",
+      "track": "ZITTI E BUONI",
+      "uri": "spotify:track:776AftMmFFAWUIEAb3lHhw"
+    },
+    {
+      "artist": "Journey",
+      "album": "Escape",
+      "track": "Don't Stop Believin'",
+      "uri": "spotify:track:4bHsxqR3GMrXTxEPLuK5ue"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "Blah Blah Blah",
+      "uri": "spotify:track:5rXVsnOQjobLwh2SaOLQCW"
+    },
+    {
+      "artist": "Betcha",
+      "album": "Falling",
+      "track": "Swim Naked",
+      "uri": "spotify:track:4SM0NAUmbllfuu7YeajE4h"
+    },
+    {
+      "artist": "Logic",
+      "album": "Confessions of a Dangerous Mind",
+      "track": "Homicide (feat. Eminem)",
+      "uri": "spotify:track:7M2tXmeS15NAzEn7ABFeBg"
+    },
+    {
+      "artist": "Tom Odell",
+      "album": "Long Way Down (Deluxe)",
+      "track": "Another Love",
+      "uri": "spotify:track:3JvKfv6T31zO0ini8iNItO"
+    },
+    {
+      "artist": "Anarbor",
+      "album": "Love & Drugs",
+      "track": "Letter in a Suitcase",
+      "uri": "spotify:track:6JDMChLzb326JIKoakDFyw"
+    },
+    {
+      "artist": "Brick + Mortar",
+      "album": "Bangs",
+      "track": "Terrible Things",
+      "uri": "spotify:track:7Dgt0TvvmEnKMRBoU8GF3C"
+    },
+    {
+      "artist": "Earth, Wind & Fire",
+      "album": "Raise!",
+      "track": "Let's Groove",
+      "uri": "spotify:track:3koCCeSaVUyrRo3N2gHrd8"
+    },
+    {
+      "artist": "The Wombats",
+      "album": "Beautiful People Will Ruin Your Life",
+      "track": "Lemon to a Knife Fight",
+      "uri": "spotify:track:3QRqzF6rX9nZbTGQvBU5bN"
+    },
+    {
+      "artist": "Amber Run",
+      "album": "Philophobia",
+      "track": "Neon Circus",
+      "uri": "spotify:track:0HygTZjzB9GQhohzMzoaeD"
+    },
+    {
+      "artist": "Earth, Wind & Fire",
+      "album": "The Best Of Earth, Wind & Fire Vol. 1",
+      "track": "September",
+      "uri": "spotify:track:2grjqo0Frpf2okIBiifQKs"
+    },
+    {
+      "artist": "Creature Canyon",
+      "album": "She's Mine",
+      "track": "She's Mine",
+      "uri": "spotify:track:38vlMXKhKunMMpJ2mEz9Wa"
+    },
+    {
+      "artist": "Arden Jones",
+      "album": "age tape 0",
+      "track": "mr. sunshine",
+      "uri": "spotify:track:2NJefEQeqDKUdyiy38GFoV"
+    },
+    {
+      "artist": "Ben Howard",
+      "album": "Every Kingdom",
+      "track": "The Wolves",
+      "uri": "spotify:track:2zKoA5gp5Xaw3mrp45XIrR"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "Knuckles",
+      "uri": "spotify:track:4Ko3NpExzZe0BBDDV6IZc8"
+    },
+    {
+      "artist": "Radiohead",
+      "album": "The Daily Mail / Staircase",
+      "track": "The Daily Mail",
+      "uri": "spotify:track:0Kwg1epDRFLyXFq09t7MtB"
+    },
+    {
+      "artist": "Jamiroquai",
+      "album": "The Return of the Space Cowboy",
+      "track": "Space Cowboy",
+      "uri": "spotify:track:6K53GM9W6Vle5KBwGFVnZM"
+    },
+    {
+      "artist": "Amber Run",
+      "album": "Philophobia",
+      "track": "Carousel",
+      "uri": "spotify:track:1CALdVEY7jLecZ5oGJcTff"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "Yesterday",
+      "uri": "spotify:track:3gC3BdR0BmSqmJwISbJkKx"
+    },
+    {
+      "artist": "Friday Pilots Club",
+      "album": "Friday Pilots Club",
+      "track": "Breaking My Bones",
+      "uri": "spotify:track:0vukOuWKf5Y8tekLGdOrwk"
+    },
+    {
+      "artist": "Friday Pilots Club",
+      "album": "End of It",
+      "track": "End of It",
+      "uri": "spotify:track:5SVdsAbdlxHOnhp4azH85D"
+    },
+    {
+      "artist": "NF",
+      "album": "The Search",
+      "track": "Returns",
+      "uri": "spotify:track:2uEuo87JC9tc1dzmPUtOxj"
+    },
+    {
+      "artist": "THE JACKS",
+      "album": "The Jacks",
+      "track": "Who Are You",
+      "uri": "spotify:track:1S3RcMmq0WfKB89nqXYohW"
+    },
+    {
+      "artist": "Jon Fratelli",
+      "album": "Psycho Jukebox",
+      "track": "Rhythm Doesn’t Make You A Dancer",
+      "uri": "spotify:track:23NTlcMUsISTRxeWfgTeLd"
+    },
+    {
+      "artist": "Red Hot Chili Peppers",
+      "album": "By the Way",
+      "track": "Can't Stop",
+      "uri": "spotify:track:3ZOEytgrvLwQaqXreDs2Jx"
+    },
+    {
+      "artist": "Gorillaz",
+      "album": "Plastic Beach",
+      "track": "On Melancholy Hill",
+      "uri": "spotify:track:0q6LuUqGLUiCPP1cbdwFs3"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "Hallelujah Moment",
+      "uri": "spotify:track:1UOkwtqARzu9QW4IMQjeO0"
+    },
+    {
+      "artist": "NF",
+      "album": "The Search",
+      "track": "When I Grow Up",
+      "uri": "spotify:track:5rLyYxZNzca00ENADO9m54"
+    },
+    {
+      "artist": "The Shelters",
+      "album": "Jupiter Sidecar",
+      "track": "Tangled Up",
+      "uri": "spotify:track:2HEZY8I1NKvTvcEdFuqMnL"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "Burn the Empire",
+      "uri": "spotify:track:21ieui2LwFfWIIYy1KJT5R"
+    },
+    {
+      "artist": "Rec Hall",
+      "album": "She Doesn't Get It",
+      "track": "She Doesn't Get It",
+      "uri": "spotify:track:7ldkjVDQMRWw6Zjx42mu4d"
+    },
+    {
+      "artist": "Royal Blood",
+      "album": "Typhoons",
+      "track": "Boilermaker",
+      "uri": "spotify:track:27BEATf1JFhKDmwJdpGVSk"
+    },
+    {
+      "artist": "Caravan Palace",
+      "album": "<I°_°I>",
+      "track": "Lone Digger",
+      "uri": "spotify:track:3Y91fIpStxQrUaXuaTbGVv"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "Zuckerpunch",
+      "uri": "spotify:track:4DgPIFxoqkIVBvPqXtW2Fa"
+    },
+    {
+      "artist": "Betcha",
+      "album": "Feels Like We’ve Been Here Before",
+      "track": "July",
+      "uri": "spotify:track:2b0G006xcIUoqvRDDaCT8E"
+    },
+    {
+      "artist": "Jack Harlow",
+      "album": "Tyler Herro",
+      "track": "Tyler Herro",
+      "uri": "spotify:track:4DuUwzP4ALMqpquHU0ltAB"
+    },
+    {
+      "artist": "The Shelters",
+      "album": "Jupiter Sidecar",
+      "track": "You're Different",
+      "uri": "spotify:track:7N3Kc0ne5tBOuDV6ukN1Q3"
+    },
+    {
+      "artist": "NerdOut",
+      "album": "Diving in Too Deep",
+      "track": "Diving in Too Deep",
+      "uri": "spotify:track:3CSlNYqrFUiRv1xK5wqry9"
+    },
+    {
+      "artist": "Queen",
+      "album": "Hairy Bikers Roadtrip",
+      "track": "Don't Stop Me Now",
+      "uri": "spotify:track:6e3y6sczcHWehxZo528OZ7"
+    },
+    {
+      "artist": "Manchester Orchestra",
+      "album": "Bed Head",
+      "track": "Bed Head",
+      "uri": "spotify:track:7oeyJeknYRMuD9ufVzyglS"
+    },
+    {
+      "artist": "The Million",
+      "album": "Hydration Station",
+      "track": "Headcheck",
+      "uri": "spotify:track:4t4V5cnZB8ZOm1jsYdqyjx"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "End of the Road (feat. Rachel Chinouriri)",
+      "uri": "spotify:track:6SzphobgDZioNq5D29ybac"
+    },
+    {
+      "artist": "Billy Joel",
+      "album": "Storm Front",
+      "track": "We Didn't Start the Fire",
+      "uri": "spotify:track:3Cx4yrFaX8CeHwBMReOWXI"
+    },
+    {
+      "artist": "Hard-Fi",
+      "album": "Stars Of CCTV",
+      "track": "Better Do Better",
+      "uri": "spotify:track:1YRahLoAPuGTi62r2zZ1Oh"
+    },
+    {
+      "artist": "The Black Keys",
+      "album": "El Camino",
+      "track": "Little Black Submarines",
+      "uri": "spotify:track:1PXsUXSM3LF2XNSkmIldPb"
+    },
+    {
+      "artist": "The Wombats",
+      "album": "Glitterbug",
+      "track": "Give Me a Try",
+      "uri": "spotify:track:7ayoL7WrBQP3ccJqELQXFK"
+    },
+    {
+      "artist": "Finish Ticket",
+      "album": "Ceiling Won't Break",
+      "track": "Ceiling Won't Break",
+      "uri": "spotify:track:4B6aWHPT5HQ7bFuUmYISCu"
+    },
+    {
+      "artist": "Jamiroquai",
+      "album": "High Times: Singles 1992-2006",
+      "track": "Virtual Insanity - Remastered 2006",
+      "uri": "spotify:track:47W6YR93MPCGLEUReLMyDm"
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "album": "AM",
+      "track": "Do I Wanna Know?",
+      "uri": "spotify:track:5FVd6KXrgO9B3JPmC8OPst"
+    },
+    {
+      "artist": "Friday Pilots Club",
+      "album": "Friday Pilots Club",
+      "track": "I Don't Care",
+      "uri": "spotify:track:7M3PcQcMbzxq3ZtegVSPsb"
+    },
+    {
+      "artist": "Air Traffic",
+      "album": "Fractured Life",
+      "track": "Shooting Star",
+      "uri": "spotify:track:5D2m087VtZ9kfe3hnovV0t"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "Pigeons in New York",
+      "uri": "spotify:track:0adXBT0I39zPrk4RC01jho"
+    },
+    {
+      "artist": "Gorillaz",
+      "album": "Gorillaz",
+      "track": "Clint Eastwood",
+      "uri": "spotify:track:1RKUoGiLEbcXN4GY4spQDx"
+    },
+    {
+      "artist": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "track": "From The Ritz To The Rubble",
+      "uri": "spotify:track:2vQQfWTanvD99OeHLAoyhW"
+    },
+    {
+      "artist": "Djo",
+      "album": "Twenty Twenty",
+      "track": "Personal Lies",
+      "uri": "spotify:track:3HAYmp6l5lYGG8zz4qMbIX"
+    },
+    {
+      "artist": "Air Traffic",
+      "album": "Almost Human",
+      "track": "Almost Human",
+      "uri": "spotify:track:6PziHSMpcnYf5jj6QQAwyu"
+    },
+    {
+      "artist": "Amber Run",
+      "album": "5AM (Expanded Edition)",
+      "track": "5AM",
+      "uri": "spotify:track:4B4kunXhV2ZKnYcvDgAFoE"
+    },
+    {
+      "artist": "The Black Keys",
+      "album": "El Camino",
+      "track": "Dead and Gone",
+      "uri": "spotify:track:3UD4sghkq8dHUwvKxln1nB"
+    },
+    {
+      "artist": "Declan McKenna",
+      "album": "What Do You Think About the Car?",
+      "track": "Brazil",
+      "uri": "spotify:track:4sNG6zQBmtq7M8aeeKJRMQ"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "The Rodeo",
+      "uri": "spotify:track:54kBmm0kwPlWyyidYbMUTD"
+    },
+    {
+      "artist": "Royal Blood",
+      "album": "Typhoons",
+      "track": "Typhoons",
+      "uri": "spotify:track:5aFGo8wHEntVxFI8IF7Wuj"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "W.L.",
+      "track": "Top Deck",
+      "uri": "spotify:track:56OmSknpMC3Zpqo1lp64YN"
+    },
+    {
+      "artist": "The Snuts",
+      "album": "Burn The Empire",
+      "track": "13",
+      "uri": "spotify:track:460QOcBPtUoiHaGet3CbJN"
+    },
+    {
+      "artist": "Royal Blood",
+      "album": "Typhoons",
+      "track": "Trouble’s Coming",
+      "uri": "spotify:track:6voIJ7OWwRabSZDC77D5Hp"
+    },
+    {
+      "artist": "The Glorious Sons",
+      "album": "A War On Everything",
+      "track": "Closer To The Sky",
+      "uri": "spotify:track:1pf8bjnKw5SgtfSvINI0Kt"
+    },
+    {
+      "artist": "NF",
+      "album": "The Search",
+      "track": "Change",
+      "uri": "spotify:track:4cBlIM5AjnQ74f52Dv7T5K"
+    }
+  ],
+  "albums": [
+  ],
+  "shows": [
+  ],
+  "episodes": [
+  ],
+  "bannedTracks": [
+  ],
+  "artists": [
+    {
+      "name": "Bring Me The Horizon",
+      "uri": "spotify:artist:1Ffb6ejR6Fe5IamqA5oRUF"
+    },
+    {
+      "name": "C Duncan",
+      "uri": "spotify:artist:0x3sTIYnP56TnL6bbyMU2i"
+    },
+    {
+      "name": "Charlie Curtis-Beard",
+      "uri": "spotify:artist:3PnZvNZGx7AuTLLeKhGTXb"
+    },
+    {
+      "name": "Creature Canyon",
+      "uri": "spotify:artist:2dNInv9DAqXZhseHpSHbV6"
+    },
+    {
+      "name": "Declan Welsh and The Decadent West",
+      "uri": "spotify:artist:6KNqvxgfYVRSzgAE1j2UT5"
+    },
+    {
+      "name": "Des Rocs",
+      "uri": "spotify:artist:2kO6mP0olFJGGh6kvUdNC8"
+    },
+    {
+      "name": "Ethan Surman",
+      "uri": "spotify:artist:12o3BOYKBwjbsjrW0Fm7iu"
+    },
+    {
+      "name": "Flower Face",
+      "uri": "spotify:artist:0sYlth2PW1zWJMEU2vCukz"
+    },
+    {
+      "name": "Friday Pilots Club",
+      "uri": "spotify:artist:3PgEvPJKRuil74QPX8wtXY"
+    },
+    {
+      "name": "Frizzy P & Mr Cole",
+      "uri": "spotify:artist:0wI3LzADu9herA70Ln81OU"
+    },
+    {
+      "name": "GLOSSER",
+      "uri": "spotify:artist:5CdfL0L0KH0wDT3cRDyQX7"
+    },
+    {
+      "name": "Jacob Maul",
+      "uri": "spotify:artist:0B2JDdsYKzFrqJO6hhJn2e"
+    },
+    {
+      "name": "Jamiroquai",
+      "uri": "spotify:artist:6J7biCazzYhU3gM9j1wfid"
+    },
+    {
+      "name": "Joey Valence & Brae",
+      "uri": "spotify:artist:1q4618qKswelCGLoanFKQh"
+    },
+    {
+      "name": "Joji",
+      "uri": "spotify:artist:3MZsBdqDrRTJihTHQrO6Dq"
+    },
+    {
+      "name": "Kalpa",
+      "uri": "spotify:artist:3iOjzYwbP5WOlEOIRIg9JT"
+    },
+    {
+      "name": "Lost Goat Found",
+      "uri": "spotify:artist:4YY7R4E9Wn2uExeB7wAR70"
+    },
+    {
+      "name": "Luna Blue",
+      "uri": "spotify:artist:71jXlesSMotAtJXLCWpvzo"
+    },
+    {
+      "name": "MF DOOM",
+      "uri": "spotify:artist:2pAWfrd7WFF3XhVt9GooDL"
+    },
+    {
+      "name": "MUSASHI PROJECT",
+      "uri": "spotify:artist:1HNngbrg0LENVuq56iQo0m"
+    },
+    {
+      "name": "Mima Manton",
+      "uri": "spotify:artist:3zD2BnX8XKtV35vycLWAYr"
+    },
+    {
+      "name": "NIKO NIKO TAN TAN",
+      "uri": "spotify:artist:1A6I0Pth32o41Soay7HhZb"
+    },
+    {
+      "name": "Nujabes",
+      "uri": "spotify:artist:3Rq3YOF9YG9YfCWD4D56RZ"
+    },
+    {
+      "name": "Okilly Dokilly",
+      "uri": "spotify:artist:2o7QyPui5TXjRsBbOfNNap"
+    },
+    {
+      "name": "Psychedelic Porn Crumpets",
+      "uri": "spotify:artist:7GRrLcUxwtQLvOpO7OHO80"
+    },
+    {
+      "name": "Queens of the Stone Age",
+      "uri": "spotify:artist:4pejUc4iciQfgdX6OKulQn"
+    },
+    {
+      "name": "Rage Against The Machine",
+      "uri": "spotify:artist:2d0hyoQ5ynDBnkvAbJKORj"
+    },
+    {
+      "name": "Rainych",
+      "uri": "spotify:artist:3dTzeO0QCd86cXSgQ04Y3r"
+    },
+    {
+      "name": "Rammstein",
+      "uri": "spotify:artist:6wWVKhxIU2cEi0K81v7HvP"
+    },
+    {
+      "name": "Razorlight",
+      "uri": "spotify:artist:450iujbtN6XgiA9pv6fVZz"
+    },
+    {
+      "name": "Stereophonics",
+      "uri": "spotify:artist:21UJ7PRWb3Etgsu99f8yo8"
+    },
+    {
+      "name": "System Of A Down",
+      "uri": "spotify:artist:5eAWCfyUhZtHHtBdNk56l1"
+    },
+    {
+      "name": "THE JACKS",
+      "uri": "spotify:artist:2MaOt31JjxLUV3E62dkbRw"
+    },
+    {
+      "name": "The Kooks",
+      "uri": "spotify:artist:1GLtl8uqKmnyCWxHmw9tL4"
+    },
+    {
+      "name": "The Longest Johns",
+      "uri": "spotify:artist:5k979N1TnPncUyqlXlaRSv"
+    },
+    {
+      "name": "The Manatees",
+      "uri": "spotify:artist:2cWGltn2fZoaAiIhuQyw5h"
+    },
+    {
+      "name": "The Shelters",
+      "uri": "spotify:artist:7LrFQFaZaxfa9deqkjvc89"
+    },
+    {
+      "name": "The Snuts",
+      "uri": "spotify:artist:4AzAfQNuAyKOFG4DZMsdAo"
+    },
+    {
+      "name": "The Zangwills",
+      "uri": "spotify:artist:5Qj5Wwn5TrlAC3Tdr0AVMT"
+    },
+    {
+      "name": "UMBER",
+      "uri": "spotify:artist:2BEo77x1mbdezVc3xkjIqI"
+    },
+    {
+      "name": "Vaundy",
+      "uri": "spotify:artist:2IUl3m1H1EQ7QfNbNWvgru"
+    }
+  ],
+  "bannedArtists": [
+  ],
+  "other": [
+  ]
+}
