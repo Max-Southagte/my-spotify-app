@@ -1,5 +1,5 @@
 {
-  "name": "my-spotify-app",
+  "name": "spotify-trend-analysis",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
