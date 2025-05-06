@@ -1,5 +1,7 @@
 import React from 'react';
 
+// This component displays the top 10 genres
+// I treid to create a more list looking component here instead of the card features like the other pages
 const TopGenres = ({ genres }) => {
   const topGenres = [...genres].sort((a, b) => b.count - a.count).slice(0, 10);
 

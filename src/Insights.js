@@ -17,7 +17,7 @@ function Insights({ insights }) {
         topArtistDetails,
     } = insights;
 
-    const minutesEachDayChartData = {
+    const minutesEachDayChartData = { // Data for the daily listening minutes chart
         labels: sortedMintesEachDay.map(({ day }) => day),
         datasets: [
             {
@@ -30,7 +30,7 @@ function Insights({ insights }) {
         ],
     };
 
-    const minutesEachMonthChartData = {
+    const minutesEachMonthChartData = { // Data for the monthly listening minutes chart
         labels: sortedMinutesEachMonth.map(({ month }) => month),
         datasets: [
             {
@@ -43,7 +43,7 @@ function Insights({ insights }) {
         ],
     };
 
-    const chartOptions = {
+    const chartOptions = { // Options for the chart displays
         responsive: true,
         plugins: {
             legend: {
@@ -53,7 +53,7 @@ function Insights({ insights }) {
                 }
             },
         },
-        scales: {
+        scales: { // Customizing the x and y axes
             x: {
                 ticks: {
                     color: 'rgb(238, 231, 231)',
@@ -68,10 +68,10 @@ function Insights({ insights }) {
     };
 
     const totalArtistMinutes = topArtistSongs.reduce((sum, song) => sum + song.count * averageMinutesPerSong, 0);
-    const artistListeningPercentage = ((totalArtistMinutes / totalMinutes) * 100).toFixed(2);
+    const artistListeningPercentage = ((totalArtistMinutes / totalMinutes) * 100).toFixed(2); // percentage of total listening time for the top artist
 
     const totalSongMinutes = topSong.count * averageMinutesPerSong;
-    const songListeningPercentage = ((totalSongMinutes / totalMinutes) * 100).toFixed(2);
+    const songListeningPercentage = ((totalSongMinutes / totalMinutes) * 100).toFixed(2); // percentage of total listening time for the top song
 
     return (
         <div className="insights-container">

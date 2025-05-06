@@ -1,7 +1,7 @@
 import React from 'react';
 import { loginUrl } from './authService';
 
-function Login() {
+function Login() { // Login component to handle user authentication
     return (
         <div className="login">
             <h1>Spotify Analytics</h1>

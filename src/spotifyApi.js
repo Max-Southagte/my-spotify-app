@@ -1,5 +1,5 @@
 export const getTopTracks = async (token, timeRange) => {
-    const response = await fetch(`https://api.spotify.com/v1/me/top/tracks?time_range=${timeRange}&limit=10`, {
+    const response = await fetch(`https://api.spotify.com/v1/me/top/tracks?time_range=${timeRange}&limit=10`, { // Fetch top tracks from Spotify API
         headers: {
             Authorization: `Bearer ${token}`
         }
@@ -10,7 +10,7 @@ export const getTopTracks = async (token, timeRange) => {
 };
 
 export const getTopArtists = async (token, timeRange) => {
-    const response = await fetch(`https://api.spotify.com/v1/me/top/artists?time_range=${timeRange}&limit=10`, {
+    const response = await fetch(`https://api.spotify.com/v1/me/top/artists?time_range=${timeRange}&limit=10`, { // Fetch top artists from Spotify API
         headers: {
             Authorization: `Bearer ${token}`
         }
@@ -21,7 +21,7 @@ export const getTopArtists = async (token, timeRange) => {
 };
 
 export const getRecentPlays = async (token) => {
-    const response = await fetch(`https://api.spotify.com/v1/me/player/recently-played?limit=10`, {
+    const response = await fetch(`https://api.spotify.com/v1/me/player/recently-played?limit=10`, { // Fetch recently played tracks from Spotify API
         headers: {
             Authorization: `Bearer ${token}`
         }
@@ -32,7 +32,7 @@ export const getRecentPlays = async (token) => {
 }
 
 export const getTopGenres = async (token, timeRange) => {
-    const response = await fetch(`https://api.spotify.com/v1/me/top/artists?time_range=${timeRange}&limit=50`, {
+    const response = await fetch(`https://api.spotify.com/v1/me/top/artists?time_range=${timeRange}&limit=50`, { // Fetch top artists from Spotify API with limit of 50
         headers: {
             Authorization: `Bearer ${token}`
         }
@@ -42,21 +42,21 @@ export const getTopGenres = async (token, timeRange) => {
 
     const genreCount = {};
 
-    data.items.forEach(artist => {
+    data.items.forEach(artist => { // Iterate through each artist and their genres
         artist.genres.forEach(genre => {
             genreCount[genre] = (genreCount[genre] || 0) + 1;
         });
     });
 
-    const sortedGenres = Object.entries(genreCount)
+    const sortedGenres = Object.entries(genreCount) // Convert the genreCount object to an array of [genre, count] pairs
         .sort((a, b) => b[1] - a[1])
         .map(([genre, count]) => ({ genre, count }));
 
-    return sortedGenres;
+    return sortedGenres; // Return the sorted genres
 };
 
 export const getArtistDetails = async (token, artistName) => {
-    const response = await fetch(`https://api.spotify.com/v1/search?q=${encodeURIComponent(artistName)}&type=artist&limit=2`, {
+    const response = await fetch(`https://api.spotify.com/v1/search?q=${encodeURIComponent(artistName)}&type=artist&limit=2`, { // Fetch artist details from Spotify API
         headers: {
             Authorization: `Bearer ${token}`,
         },
@@ -71,16 +71,4 @@ export const getArtistDetails = async (token, artistName) => {
 
     throw new Error('Artist not found');
 };
-
-export const getReccomendations = async (token, seedArtists, seedTracks) => {
-    const response = await fetch(`https://api.spotify.com/v1/recommendations?seed_artists=${seedArtists}&seed_tracks=${seedTracks}`, {
-        headers: {
-            Authorization: `Bearer ${token}`,
-        },
-    });
-
-    if (!response.ok) throw new Error('Failed to fetch recommendations');
-    const data = await response.json();
-    return data.tracks;
-}
 

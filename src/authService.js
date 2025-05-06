@@ -1,10 +1,10 @@
-export const getTokenFromUrl = () => {
+export const getTokenFromUrl = () => { // https://developer.spotify.com/documentation/web-playback-sdk/quick-start/#get-the-access-token
     return window.location.hash
         .substring(1)
         .split('&')
         .reduce((initial, item) => {
-            let parts = item.split('=');
-            initial[parts[0]] = decodeURIComponent(parts[1]);
+            let parts = item.split('='); // Split the string into key and value
+            initial[parts[0]] = decodeURIComponent(parts[1]); // Decode the value and assign it to the key in the initial object
             return initial;
         }, {});
 };
